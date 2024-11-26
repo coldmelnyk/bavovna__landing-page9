@@ -16,6 +16,10 @@
   justify-content: center;
 }
 
+.header--margin {
+  margin-bottom: 98px;
+}
+
 .header__container {
   display: flex;
   justify-content: center;
@@ -49,6 +53,19 @@
   align-items: center;
 }
 
+.nav__list__element {
+  display: flex;
+}
+
+.nav__link {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.nav__link:hover {
+  color: #e65f25;
+}
+
 .nav__link--contact {
   padding: 12px 32px;
   border: 1px solid #e65f25;
@@ -62,11 +79,123 @@
   background-color: rgba(230, 95, 37, 0.3);
 }
 
-.nav__list__element {
+.search-section {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.nav__link {
+.search-section__title {
+  text-align: center;
+
+  margin-bottom: 32px;
+
+  font-weight: 500;
+  font-size: 56px;
+}
+
+.search-section__title__bold {
+  font-weight: 900;
+}
+
+.search-section__field {
+  position: relative;
+  width: 761px;
+
+  display: flex;
+  gap: 30px;
+}
+
+.search-section__field--margin {
+  margin-bottom: 32px;
+}
+
+.search-section__field__input {
+  width: 570px;
+  height: 52px;
+  padding-left: 56px;
+
+  border: 1px solid #E0E4EB;
+  border-radius: 100px;
+  outline: none;
+
+  color: #636B92;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.search-section__field__input::placeholder {
+  color: #636B92;
+}
+
+.search-section__field__input:focus {
+  border: 1px solid #636B92 !important;
+}
+
+.search-section__field__input__icon {
+  position: absolute;
+  left: 16px;
+  top: 10px;
+
+  height: 32px;
+  width: 32px;
+
+  background-image: url('./images/search-field-icon.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.search-section__field__button {
+  width: 161px;
+  height: 52px;
+
+  background-color: #000;
+  border: 0;
+  border-radius: 100px;
+
+  color: #fff;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.search-section__field__button:hover {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+
+.search-section__catalog-button--margin {
+  margin-bottom: 192px;
+}
+
+.search-section__text {
+  margin-bottom: 8px;
+
+  color: #636B92;
   font-weight: 400;
   font-size: 16px;
+}
+
+.search-section__catalog-button__link {
+  display: flex;
+  gap: 8px;
+}
+
+.search-section__catalog-button__text {
+  color: #D66738;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.search-section__catalog-button__icon {
+  height: 24px;
+  width: 24px;
+
+  background-image: url('./images/search-field-catalog-icon.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
