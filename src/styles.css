@@ -211,38 +211,59 @@ button {
   justify-content: center;
 }
 
-.most-popular__manuf {
-  display: flex;
-  justify-content: space-between;
+.most-popular__title {
+  font-weight: 700;
+  font-size: 48px;
 }
 
-.most-popular__manuf__names {
-  display: flex;
-  gap: 16px;
-
-}
-
-.manufacture {
-  padding: 4px 16px;
-  background-color: #FDF2ED;
-  border-radius: 100px;
-  text-wrap: nowrap;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 16px;
-}
-
+.most-popular__manuf,
 .most-popular__models {
   display: flex;
   justify-content: space-between;
 }
 
-.most-popular__models__names {
-  display: flex;
+.most-popular__manuf__names {
+  width: 754px;
+  height: 179px;
+}
 
+.manufacture,
+.models {
+  padding: 16px;
+  border-radius: 100px;
+  text-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 16px;
+  display: inline-flex;
+
+  margin-bottom: 16px;
+  margin-right: 16px;
+}
+
+.manufacture {
+  background-color: #fdf2ed;
+}
+
+.models {
+  background: #EDEFF3;
+}
+
+.break-line {
+  width: 100%;
+  border: 0.5px solid #000;
+
+  margin-bottom: 96px;
+  margin-top: 96px;
+}
+
+.most-popular__models__names {
+  width: 754px;
+}
+
+.most-popular__models {
   margin-bottom: 96px;
 }
 
@@ -309,7 +330,7 @@ button {
   background-size: contain;
   background-position: center;
 } */
- 
+
 .nav__link--footer__icon-twt {
   width: 19px;
   height: 20px;
@@ -365,7 +386,7 @@ button {
 .footer__signup__desc {
   font-weight: 400;
   font-size: 16px;
-  color: #D7D7D7;
+  color: #d7d7d7;
 
   margin-bottom: 16px;
 }
@@ -386,13 +407,13 @@ button {
 
   font-weight: 500;
   font-size: 16px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .footer__signup__form__input::placeholder {
   font-weight: 500;
   font-size: 16px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .footer__signup__form__button {
