@@ -101,20 +101,25 @@ button {
 
 .left-fpv-img {
   position: absolute;
+  left: -15px;
+  top: -66px;
 
   width: 300px;
-  height: 300px;
-  left: 0;
+  height: 385px;
 
-  background-image: url("./images/left-fpv-img-svg.svg");
+  background-image: url('./images/left-fpv-img-svg.svg');
   background-repeat: no-repeat;
   background-position: center;
-  /* background-size: cover; */
+  background-size: contain;
 }
 
 .right-fpv-img {
   position: absolute;
+
   background-image: url("./images/right-fpv-img.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 .search-section__title {
