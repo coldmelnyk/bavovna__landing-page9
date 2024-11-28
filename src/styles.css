@@ -10,6 +10,10 @@
   color: #000;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 input,
 button {
   outline: none;
@@ -128,6 +132,8 @@ button {
 }
 
 .search-section__title {
+  z-index: 2;
+
   margin-bottom: 32px;
 
   font-weight: 500;
@@ -211,6 +217,8 @@ button {
 }
 
 .search-section__text {
+  z-index: 2;
+
   margin-bottom: 8px;
 
   color: #636b92;
@@ -224,12 +232,16 @@ button {
 }
 
 .search-section__catalog-button__text {
+  z-index: 2;
+
   color: #d66738;
   font-weight: 500;
   font-size: 16px;
 }
 
 .search-section__catalog-button__icon {
+  z-index: 2;
+
   height: 24px;
   width: 24px;
 
@@ -303,6 +315,8 @@ button {
 }
 
 .footer {
+  position: relative;
+
   display: grid;
   grid-template-columns: repeat(1, 1170px);
   justify-content: center;
@@ -460,4 +474,26 @@ button {
   cursor: pointer;
   font-weight: 700;
   font-size: 16px;
+}
+
+.footer__up-button {
+  position: absolute;
+  bottom: 89px;
+  right: 143px;
+
+  width: 72px;
+  height: 72px;
+  border-radius: 100px;
+
+  background-color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+
+  background-image: url('./images/footer-button-arrow-up.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 40px;
 }
