@@ -23,16 +23,16 @@ button {
 .header {
   height: 149px;
   display: grid;
-  grid-template-columns: repeat(1, 1170px);
+  grid-template-columns: repeat(1, 933px);
   justify-content: center;
 
-  background-color: #F9FAFB;
+  background-color: #f9fafb;
 }
 
 .header__container {
   display: flex;
   justify-content: center;
-  gap: 543px;
+  gap: 67px;
 
   text-align: center;
 }
@@ -96,18 +96,22 @@ button {
   justify-content: center;
   justify-items: center;
 
-  background-color: #F9FAFB;
+  background-color: #f9fafb;
 }
 
 .left-fpv-img {
   position: absolute;
-  left: -15px;
-  top: -66px;
+  /* left: -15px; */
+  /* top: -33px; */
 
-  width: 300px;
-  height: 385px;
+  /* width: 200px; */
+  height: 285px;
 
-  background-image: url('./images/left-fpv-img-svg.svg');
+  width: 130px;
+  left: 0px;
+  top: -85px;
+
+  background-image: url("./images/left-fpv-img-svg.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -115,16 +119,17 @@ button {
 
 .right-fpv-img {
   position: absolute;
-  bottom: -38px;
   right: 0;
 
-  width: 418px;
   height: 675px;
+
+  width: 185px;
+  bottom: -177px;
 
   background-image: url(./images/right-fpv-img-svg.svg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
 }
 
 .search-section__title {
@@ -250,7 +255,7 @@ button {
 .most-popular-section {
   padding-top: 96px;
   display: grid;
-  grid-template-columns: repeat(1, 1170px);
+  grid-template-columns: repeat(1, 816px);
   justify-content: center;
 }
 
@@ -291,7 +296,7 @@ button {
 }
 
 .models {
-  background: #EDEFF3;
+  background: #edeff3;
 }
 
 .break-line {
@@ -463,7 +468,7 @@ button {
 
 .footer__up-button {
   position: absolute;
-  bottom: 89px;
+  bottom: 42px;
   right: 143px;
 
   width: 72px;
@@ -477,7 +482,7 @@ button {
   line-height: 50px;
   cursor: pointer;
 
-  background-image: url('./images/footer-button-arrow-up.png');
+  background-image: url("./images/footer-button-arrow-up.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 40px;

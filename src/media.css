@@ -1,0 +1,53 @@
+@media (min-width: 1173px) {
+  .header,
+  .footer,
+  .most-popular-section {
+    grid-template-columns: repeat(1, 1170px);
+  }
+
+  .header__container {
+    gap: 543px;
+  }
+  
+  .left-fpv-img {
+    top: -33px;
+
+    width: 200px;
+    height: 285px;
+  }
+
+  .right-fpv-img {
+    width: 290px;
+
+    bottom: -84px;
+  }
+}
+
+@media (min-width: 1522px) {
+  .footer__up-button {
+    bottom: 89px;
+  }
+}
+
+@media (min-width: 1431px) {
+  .left-fpv-img {
+    left: -15px;
+    top: -66px;
+
+    width: 300px;
+    height: 385px;
+  }
+
+  .right-fpv-img {
+    bottom: -38px;
+    width: 418px;
+
+    background-size: cover;
+  }
+}
+
+@media (min-width: 937px) {
+  .header__container {
+    gap: 300px;
+  }
+}
