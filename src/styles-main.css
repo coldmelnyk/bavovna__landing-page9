@@ -8,6 +8,8 @@
   list-style: none;
   text-decoration: none;
   color: #000;
+
+  transition: all 0.3s;
 }
 
 html {
