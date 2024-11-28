@@ -115,11 +115,16 @@ button {
 
 .right-fpv-img {
   position: absolute;
+  bottom: -38px;
+  right: 0;
 
-  background-image: url("./images/right-fpv-img.png");
+  width: 418px;
+  height: 675px;
+
+  background-image: url(./images/right-fpv-img-svg.svg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
 }
 
 .search-section__title {
