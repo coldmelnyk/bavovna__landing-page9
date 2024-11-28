@@ -21,11 +21,13 @@ button {
   display: grid;
   grid-template-columns: repeat(1, 1170px);
   justify-content: center;
+
+  background-color: #F9FAFB;
 }
 
-.header--margin {
+/* .header--margin {
   margin-bottom: 98px;
-}
+} */
 
 .header__container {
   display: flex;
@@ -87,10 +89,13 @@ button {
 }
 
 .search-section {
+  padding-top: 98px;
   display: grid;
   grid-template-columns: repeat(1, 1170px);
   justify-content: center;
   justify-items: center;
+
+  background-color: #F9FAFB;
 }
 
 .search-section__title {
@@ -206,6 +211,7 @@ button {
 }
 
 .most-popular-section {
+  padding-top: 96px;
   display: grid;
   grid-template-columns: repeat(1, 1170px);
   justify-content: center;
