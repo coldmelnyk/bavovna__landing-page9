@@ -29,10 +29,6 @@ button {
   background-color: #F9FAFB;
 }
 
-/* .header--margin {
-  margin-bottom: 98px;
-} */
-
 .header__container {
   display: flex;
   justify-content: center;
@@ -372,13 +368,6 @@ button {
   font-weight: 400;
   font-size: 16px;
 }
-
-/* .nav__link--footer__icon-twt {
-  background-image: url('./images/twitter-icon.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-} */
 
 .nav__link--footer__icon-twt {
   width: 19px;
